@@ -1,0 +1,70 @@
+\include{newcommands}
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.77]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Mario}{Lamberti}
+\title{Curriculum Vit\ae}                               % optional, remove / comment the line if not wanted
+%\address{+39 340 42 61 266}{mario.lamberti31@gmail.com}{Anno di nascita: 31 Gennaio 1993}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+39~340~4161266}                   % optional, , remove / comment the line if not wanted
+\email{mario.lamberti31@gmail.com}                               %  remove / comment the line if not wanted
+
+\extrainfo{\skypesocialsymbol mario.lamberti31 \\
+			Date of birth: 31 January 1993 \\ 
+			Place of birth: Salerno (SA), Italy}
+
+
+\begin{document}
+\makecvtitle
+\section{Education}
+\cventry{2017--2020}{Master of Science in Physics (LM-17)}{Università degli Studi di Milano}{Italy}{}
+{Relevant topics: Electroweak Interaction, Strong Interaction, Standard Model and Higgs sector, Quantum Field Theory and Renormalization, Particle Detectors. \\
+Thesis title: "Measurement of differential cross sections for Higgs boson production in the $\gamma\gamma$ decay channel at $\sqrt{s} = 13$ TeV with the ATLAS experiment." \\
+Supervisors: Prof. Marcello Fanti, Dott. Ruggero Turra \\
+110/ 110}
+\cventry{2018--2019}{Erasmus\scriptsize{+} \normalsize{exchange program}}{Albert-Ludwigs-Universität Freiburg}{Germany}{}
+{Relevant topics: Advanced Particle Physics, Particle Detectors, Advanced Quantum Field Theory. \\
+Period of stay:  October 2018 - March 2019}
+\cventry{2012--2017}{Bachelor of Science in Physics (L-30)}{Università degli Studi di Milano}{Italy}{}
+{Relevant topics: Classical Physics, Quantum Physics, Electromagnetism, Linear Algebra, Mathematical Analysis. \\ 
+Thesis title: "Interferometria quantistica con elettroni e positroni: studio preliminare per esperimento QUPLAS." \\
+Supervisors: Prof. Fabrizio Castelli, Prof. Marco Giammarchi, Dott. Simone Sala \\
+94/ 110}
+\cventry{2006--2011}{Diploma}{Liceo Classico G.D. Romagnosi}{Parma (PR)}{Italy}
+{Maturità classica}
+
+\section{Present research activities}
+\cventry{2020--present}{Associate Member of the ATLAS Collaboration at CERN (Geneva)}{}{Currently I am working in the $H \rightarrow \gamma\gamma$ cross-sections working group within the ATLAS Collaboration. This work is part of an analysis aimed at publishing an article by the ATLAS Collaboration.}{}{}
+
+\section{Past research activities}
+\cventry{2020}{Measurement of differential cross sections for Higgs boson production in the $\gamma\gamma$ decay channel at $\sqrt{s} = 13$ TeV with the ATLAS experiment \small{(Master's degree)}}{}{}{}{}
+\cventry{2017}{Quantum interferometry with electron and positron: a preliminary analysis for the QUPLAS experiment \small{(Bachelor's degree)}}{}{}{}{}
+
+\section{Language skills}
+\cvitemwithcomment{Italian}{Mother tongue}{}
+\cvitemwithcomment{English}{B2}{}
+\cvitemwithcomment{German}{A2}{}
+
+\section{Programming skills}
+\cvitem{Languages \small{(advanced)}}{python, \LaTeX}
+\cvitem{Languages \small{(intermediate)}}{C++, bash, XML, SQL, MySQL}
+\cvitem{Languages \small{(basic)}}{Mathematica, JavaScript, HTML4/5, CSS}
+\cvitem{Tools \& frameworks}{ROOT, RDataFrame, PyROOT, RooFit, Jupyter Notebook, HTCondor, Python VirtualEnv, Numpy, Pandas, Matplotlib, Git}
+
+\end{document}
